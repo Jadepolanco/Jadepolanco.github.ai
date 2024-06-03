@@ -1,0 +1,184 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #E5C199;
+}
+
+
+
+.logo {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 8px;
+    cursor: pointer;
+   
+}
+
+.social .logo:hover{
+    opacity: 50%;
+}
+.txt{
+    padding-left: 60px; 
+    max-width: 600px;
+}
+
+
+.nv {
+    background-color: white;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-end; */
+    align-items: center;
+    width: 100%;
+    height: 200px;
+    
+
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    margin-top: -10px;
+    gap: 30px;
+}
+
+
+a {
+    text-decoration: dashed;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+a:hover{
+    color: rgba(255, 0, 0, 0.66);
+}
+.nav-enlace{
+    margin-right: 20px;
+    color: black;
+
+}
+
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+}
+
+.sec{
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    width: 75%;
+    margin-top: 30px;
+}
+
+.title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: white;
+}
+
+.txt{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: justify;
+
+}
+
+.enc{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.img-in{
+    width: 300px;
+    height: 250px;
+    margin-left: 22px;
+    
+}
+
+.scd{
+    margin-right: 20px;
+}
+
+
+.slider {
+	width: 75%;
+	margin: auto;
+	overflow: hidden;
+    margin-top: 30px;
+}
+
+.slider ul {
+	display: flex;
+	padding: 0;
+	width: 200%;
+	animation: cambio 20s infinite alternate linear;
+}
+
+.slider li {
+	width: 100%;
+	list-style: none;
+}
+
+.slider img {
+	width: 50%;
+}
+
+@keyframes cambio {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}
+
+
+
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: #C77F00;
+    height: auto;
+    color: white;
+
+}
+
+
+.info{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.nav-enlace .f{
+    color: white;
+
+}
+.social_media{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    box-sizing: border-box;
+}
+
+.social_media img{
+    width: auto;
+    height: 50px;
+}
+.social:hover{
+    opacity: 50%;
+}

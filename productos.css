@@ -1,0 +1,164 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #E5C199;
+    text-align: center;
+}
+
+
+
+.logo {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+
+
+.tt{
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.social .logo:hover{
+    opacity: 50%;
+}
+.txt{
+    padding-left: 60px; 
+    max-width: 600px;
+}
+
+
+.nv {
+    background-color: white;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-end; */
+    align-items: center;
+    width: 100%;
+    height: 200px;
+    
+
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    margin-top: -10px;
+    gap: 30px;
+}
+
+
+a {
+    text-decoration: dashed;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+a:hover{
+    color: rgba(255, 0, 0, 0.66);
+}
+.nav-enlace{
+    margin-right: 20px;
+    color: black;
+
+}
+
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    padding: 20px;
+}
+
+.section1{
+    width: 700px;
+    padding: 20px;
+    height: auto;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #e9d8c7;
+    border-radius: 20px;
+}
+
+.banda{
+    font-family: 'Courier New', Courier, monospace;
+}
+.img-c{
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.img-1, .img-o{
+    width: 500px;
+    border-radius: 20px;
+}
+
+.img-o{
+    width: 500px;
+    border-radius: 20px;
+}
+
+
+.btn{
+    margin: 30px;
+    width: 100px;
+    height: 50px;
+    background-color: aliceblue;
+    border: none;
+    border-radius: 10px;
+}
+
+.sec{
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    width: 75%;
+    margin-top: 30px;
+}
+
+
+
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: #C77F00;
+    height: auto;
+    color: white;
+
+}
+
+
+.info{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.nav-enlace .f{
+    color: white;
+
+}
+.social_media{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    box-sizing: border-box;
+}
+
+.social_media img{
+    width: auto;
+    height: 50px;
+}
+.social:hover{
+    opacity: 50%;
+}
